@@ -26,3 +26,5 @@ const countriesSlicer = createSlice({
     },
   },
 });
+
+export default countriesSlicer.reducer;
