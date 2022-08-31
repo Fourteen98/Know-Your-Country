@@ -1,4 +1,5 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import axios from 'axios';
 
 const initialState = [];
 const GET_COUNTRIES = 'GET_COUNTRIES';
@@ -19,10 +20,10 @@ const countriesSlicer = createSlice({
   initialState,
   extraReducers: {
     [getCountries.fulfilled]: (state, action) => {
-      state = action.payload
+      state = action.payload;
     },
     [searchCountries.fulfilled]: (state, action) => {
-      state = action.payload
+      state = action.payload;
     },
   },
 });
