@@ -19,12 +19,8 @@ const countriesSlicer = createSlice({
   name: 'countries',
   initialState,
   extraReducers: {
-    [getCountries.fulfilled]: (state, action) => {
-      state = action.payload;
-    },
-    [searchCountries.fulfilled]: (state, action) => {
-      state = action.payload;
-    },
+    [getCountries.fulfilled]: (state, action) => action.payload,
+    [searchCountries.fulfilled]: (state, action) => action.payload,
   },
 });
 
