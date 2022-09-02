@@ -1,4 +1,3 @@
-import './css/home.css';
 import React from 'react';
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -8,6 +7,7 @@ import australia from '../assets/australia.png';
 import europe from '../assets/europe.png';
 import northAmerica from '../assets/north-america.png';
 import southAmerica from '../assets/south-america.png';
+import Countries from '../components/countries';
 
 const Home = () => {
 
@@ -40,6 +40,7 @@ const Home = () => {
         </div>
 
       </Carousel>
+      <Countries />
     </div>
   );
 }
