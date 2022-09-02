@@ -1,9 +1,9 @@
 # Mine-To-Invest
-> This is a web application that provides commercial and scientific space travel services.
-> The application will allow users to book rockets and join selected space missions.
+> This is a web application that provides information on countries. It is built with React and Redux.
+
 
 ## Live Demo
-[Space Travelers' Hub](https://630733198d53a95fb699dec3--dreamy-blini-ee4660.netlify.app/)
+[Space Travelers' Hub](https://6311f1f48e0d810b54b5f90f--statuesque-kulfi-6801a0.netlify.app)
 
 ## Built With
 
@@ -25,10 +25,12 @@ To get a local copy up and running follow these simple example steps.
 - NPM updated
 - Modern web browser
 - Git
+- Vite
+- React
 
 ### Setup
 
-    git clone https://github.com/Fourteen98/Space-Travelers-Hub.git 
+    https://github.com/Fourteen98/Know-Your-Country.git 
 
 ### Install
     npm install
