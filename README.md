@@ -1,5 +1,5 @@
 # Mine-To-Invest
-> This is a web application that provides information on countries. It is built with React and Redux.
+> This is a web application that provides information on countries. It is built with React and Redux and managed with vite.
 
 
 ## Live Demo
@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- NPM updated
+- NPM 
 - Modern web browser
 - Git
 - Vite
