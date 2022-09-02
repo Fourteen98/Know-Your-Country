@@ -1,0 +1,48 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2%;
+}
+
+input {
+  width: 50%;
+  padding: 1%;
+}
+
+.button-container {
+  width: 100%;
+}
+
+button {
+  width: 15%;
+  padding: 1%;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.countries-main-card {
+  height: 700px;
+  overflow-y: auto;
+}
+
+.countries-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.country-flag {
+  width: 100%;
+  height: 10rem;
+}
+
+.country-stats {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  background-color: rgb(173, 7, 118);
+  color: #fff;
+  width: 100%;
+  height: 4rem;
+  margin: 10px 0;
+}

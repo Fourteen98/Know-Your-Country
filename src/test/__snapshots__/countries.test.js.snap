@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries renders correctly 1`] = `
+<div>
+  <div
+    className="input-group"
+    id="search"
+  >
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Search Country"
+      type="text"
+      value=""
+    />
+    <div
+      className="button-container"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        Search
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        reset
+      </button>
+    </div>
+  </div>
+  <div
+    className="countries-main-card"
+  >
+    <div
+      className="countries-card"
+    />
+  </div>
+</div>
+`;
