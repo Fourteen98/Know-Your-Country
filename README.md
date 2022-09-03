@@ -38,6 +38,8 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
     npm run dev
 
+### Run tests
+    npx jest 
 
 ### Deployment
     npm run deploy

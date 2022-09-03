@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { getCountries, searchCountries } from '../redux/countries/countries';
 import './css/countries.css';
 
@@ -17,7 +17,6 @@ const Countries = () => {
     } catch (error) {
       console.log(error); // eslint-disable-line
     }
-
   };
   const handleSearch = (e) => {
     try {
@@ -40,12 +39,13 @@ const Countries = () => {
   const renderACountry = countries.map((country) => (
     <div key={country.name.common} className="main-country-stat">
       <Link to={`/details/${country.name.common}`}>
-
         <img className="country-flag" src={country.flags.png} alt="flag" />
         <div className="country-stats">
           <p className="">{country.name.common.toUpperCase()}</p>
           <p className="name-and-population">
-            POPULATION: {country.population.toLocaleString()}
+            POPULATION:
+            {' '}
+            {country.population.toLocaleString()}
           </p>
         </div>
       </Link>
@@ -75,9 +75,8 @@ const Countries = () => {
       <div className="countries-main-card">
         <div className="countries-card">{renderACountry}</div>
       </div>
-      </div>
+    </div>
   );
-}
+};
 
 export default Countries;
-
