@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Continents render correctly 1`] = `
+exports[`Each country render correctly 1`] = `
 [
   <div
     className="country-info"
