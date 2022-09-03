@@ -19,7 +19,7 @@ const Details = () => {
   }, [dispatch]);
 
   const countryIndex = countries.findIndex((country) => country.name.common === name );
-
+  console.log(countries[countryIndex].name.common);
   return (
     <div className="details">
       <div className="nav-bar">

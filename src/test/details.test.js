@@ -4,9 +4,7 @@ import { Provider } from 'react-redux';
 import Details from '../pages/Details';
 import store from '../redux/configureStore';
 
-jest.useFakeTimers();
-
-it('Continents render correctly', () => {
+it('Each country render correctly', () => {
   const tree = TestRenderer.create(
     <Provider store={store}>
       <Details />
