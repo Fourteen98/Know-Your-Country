@@ -1,4 +1,4 @@
-# Mine-To-Invest
+# Know Your Country
 > This is a web application that provides information on countries. It is built with React and Redux and managed with vite.
 
 
