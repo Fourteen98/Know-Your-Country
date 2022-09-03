@@ -7,7 +7,7 @@ import store from '../redux/configureStore';
 it('Each country render correctly', () => {
   const tree = TestRenderer.create(
     <Provider store={store}>
-        <Details />
+      <Details />
     </Provider>,
   ).toJSON();
   expect(tree).toMatchSnapshot();
