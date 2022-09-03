@@ -12,16 +12,29 @@ const Countries = () => {
   }, [dispatch]);
   const [search, setSearch] = useState('');
   const handleChange = (e) => {
-    setSearch(e.target.value);
+    try {
+      setSearch(e.target.value);
+    } catch (error) {
+      console.log(error); // eslint-disable-line
+    }
+
   };
   const handleSearch = (e) => {
-    e.preventDefault();
-    dispatch(searchCountries(search));
+    try {
+      e.preventDefault();
+      dispatch(searchCountries(search));
+    } catch (error) {
+      console.log(error); // eslint-disable-line
+    }
   };
   const showAll = (e) => {
-    e.preventDefault();
-    dispatch(getCountries());
-    setSearch('');
+    try {
+      e.preventDefault();
+      dispatch(getCountries());
+      setSearch('');
+    } catch (error) {
+      console.log(error); // eslint-disable-line
+    }
   };
 
   const renderACountry = countries.map((country) => (
