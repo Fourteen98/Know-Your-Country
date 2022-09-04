@@ -1,16 +1,11 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import { Provider } from 'react-redux';
-import Details from '../pages/Details';
-import store from '../redux/configureStore';
+import countriesData from '../countriesData.json';
+import CountryDisplay from '../components/CountryDisplay';
 
-jest.useFakeTimers();
-
-it('Continents render correctly', () => {
+it('Each country render correctly', () => {
   const tree = TestRenderer.create(
-    <Provider store={store}>
-      <Details />
-    </Provider>,
+    <CountryDisplay country={countriesData[0]} />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });

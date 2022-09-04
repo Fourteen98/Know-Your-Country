@@ -7,7 +7,7 @@ import australia from '../assets/australia.png';
 import europe from '../assets/europe.png';
 import northAmerica from '../assets/north-america.png';
 import southAmerica from '../assets/south-america.png';
-import Countries from '../components/countries';
+import Countries from '../components/Countries.jsx';
 
 const Home = () => {
 

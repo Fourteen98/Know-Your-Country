@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Each country render correctly 1`] = `
+[
+  <div
+    className="country-info"
+  >
+    <div
+      className="country-basic-info"
+    >
+      <img
+        alt="coat-of-arms"
+        className="country-img"
+        src="https://mainfacts.com/media/images/coats_of_arms/fi.png"
+      />
+    </div>
+  </div>,
+  <div
+    className="country-info-header"
+  >
+    <p
+      className=""
+    >
+      COUNTRY INFORMATION
+    </p>
+  </div>,
+  <div
+    className="non-highlighted"
+  >
+    <p
+      className="country-name"
+    >
+      Country Name
+    </p>
+    <p>
+      Finland
+    </p>
+  </div>,
+  <div
+    className="highlighted"
+  >
+    <p>
+      Land Size
+    </p>
+    <p>
+      338,424
+    </p>
+  </div>,
+  <div
+    className="non-highlighted"
+  >
+    <p>
+      Capital City
+    </p>
+    <p>
+      Helsinki
+    </p>
+  </div>,
+  <div
+    className="highlighted"
+  >
+    <p>
+      Country Population
+    </p>
+    <p>
+      5,530,719
+    </p>
+  </div>,
+  <div
+    className="non-highlighted"
+  >
+    <p>
+      Continent
+    </p>
+    <p>
+      Europe
+    </p>
+  </div>,
+  <div
+    className="highlighted"
+  >
+    <p>
+      Independent
+    </p>
+    <p>
+      Yes
+    </p>
+  </div>,
+]
+`;
